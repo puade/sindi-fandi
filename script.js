@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Fungsi untuk mengambil semua data ucapan dari Google Sheets
 function fetchUcapan() {
-  var url = 'https://script.google.com/macros/s/AKfycbxMv9HBUuQh0WsTnEJcjaDrHVOZ-bwuwCH5tpX3ZnpersKtJIuNwzmkXAbndhawlyCg/exec'; // Ganti dengan URL Web App Google Apps Script Anda
+  var url = 'https://script.google.com/macros/s/AKfycbyNLa0uM9m3O5UvS0IRX85lyUNURdO-xPPesnhcqOICl6RcFsQjSJZvp47nAPuOlMdQ/exec'; // Ganti dengan URL Web App Google Apps Script Anda
   
   fetch(url)
     .then(response => response.json())
@@ -189,7 +189,7 @@ document.getElementById('formPernikahan').addEventListener('submit', function(ev
   const kehadiran = document.getElementById('kehadiran').value;
   const pesan = document.getElementById('pesan').value;
 
-  fetch('https://script.google.com/macros/s/AKfycbxMv9HBUuQh0WsTnEJcjaDrHVOZ-bwuwCH5tpX3ZnpersKtJIuNwzmkXAbndhawlyCg/exec', {
+  fetch('https://script.google.com/macros/s/AKfycbyNLa0uM9m3O5UvS0IRX85lyUNURdO-xPPesnhcqOICl6RcFsQjSJZvp47nAPuOlMdQ/exec', {
     method: 'POST',
     headers: {'Content-Type': 'application/x-www-form-urlencoded'},
     body: new URLSearchParams({ 'nama': nama, 'kehadiran': kehadiran, 'pesan': pesan })
