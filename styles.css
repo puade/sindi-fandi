@@ -14,8 +14,8 @@
 
 
 @font-face {
-  font-family: 'cambria'; /* Nama font yang akan digunakan */
-  src: url('asset/font/cambria.ttc') format('truetype'); /* Lokasi dan format font */
+  font-family: 'Montserrat'; /* Nama font yang akan digunakan */
+  src: url('asset/font/Montserrat.ttf') format('truetype'); /* Lokasi dan format font */
   font-weight: normal;
   font-style: normal;
 }
@@ -694,5 +694,6 @@ background: transparent; /* Menyembunyikan track scrollbar */
 width: 90%;
 padding-bottom: 50px;
 }
+
 
 
