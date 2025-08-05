@@ -417,7 +417,7 @@ background-color:  rgba(82, 82, 82, 0.8);
   display: flex;
   background-image: url(img/bg3-pjg.jpg);
   background-size: cover;
-  color: #021e3b;
+  color: #0f0f0f;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -429,7 +429,7 @@ background-color:  rgba(82, 82, 82, 0.8);
   padding-right: 20px;
 }
 .gift-card {
-  background-image: url(img/giftcard.png);
+  background-image: url(img/giftcard.jpg);
   color: #ffffff;
   padding: 20px;
   border-radius: 10px;
@@ -694,6 +694,7 @@ background: transparent; /* Menyembunyikan track scrollbar */
 width: 90%;
 padding-bottom: 50px;
 }
+
 
 
 
