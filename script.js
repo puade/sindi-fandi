@@ -56,6 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const frame3 = document.getElementById('frame-3');
   const frame4 = document.getElementById('frame-4');
   const frame6 = document.getElementById('frame-6');
+  const frame7 = document.getElementById('frame-7');
   const musicControl = document.getElementById('music-control');
   const backgroundMusic = document.getElementById('background-music');
 
@@ -66,6 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
     frame3.style.display = 'flex';
     frame4.style.display = 'flex';
     frame6.style.display = 'flex';
+    frame7.style.display = 'flex';
   
     document.body.style.overflow = 'auto';
     
@@ -255,3 +257,4 @@ document.getElementById('modal-image').src = images[currentIndex];
 }
 
 //AKHIR FUNGSI POPUP FOTO
+
